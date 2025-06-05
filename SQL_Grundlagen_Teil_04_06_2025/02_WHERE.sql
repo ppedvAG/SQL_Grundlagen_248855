@@ -6,7 +6,7 @@ WHERE Country = 'Germany'
 
 -- = sucht nach exakten Treffern
 SELECT * FROM Customers
-WHERE Country = 'Germany'
+WHERE Country = ' Germany'
 
 SELECT * FROM Orders
 WHERE Freight = 100
@@ -68,7 +68,7 @@ WHERE City IN ('Paris', 'Berlin', 'Madrid') OR Country = 'Brazil'
 
 -- 4. Alle Customers rausholen, die keine Fax haben
 SELECT * FROM Customers
-WHERE Fax IS NULL
+WHERE Fax IS  NULL
 
 -- 5. Haben wir Produkteinheiten im Lager (UnitsInStock), die aber nicht
 -- mehr verkauft werden (Discontinued)? Wenn ja, wieviel "Geld" liegt dort im Lager?

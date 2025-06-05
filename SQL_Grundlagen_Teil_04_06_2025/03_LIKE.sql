@@ -23,7 +23,7 @@ WHERE PostalCode LIKE '[0123456]%'
 SELECT PostalCode FROM Customers
 WHERE PostalCode LIKE '[1-6]%'
 
--- NICHT-Fall [^1-6]
+-- NICHT-Fall [^1-6] => ^ Caret
 SELECT PostalCode FROM Customers
 WHERE PostalCode LIKE '[^1-6]%'
 

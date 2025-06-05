@@ -43,7 +43,7 @@ ORDER BY City ASC
 
 -- Sortieren nach CompanyName
 SELECT CustomerID, CompanyName, Country FROM Customers
-ORDER BY 2 DESC -- => Sortiert nach der 2ten Spalte
+ORDER BY 2 DESC, 3 ASC -- => Sortiert nach der 2ten Spalte
 
 -- ORDER BY ist syntaktisch immer am ENDE
 -- DESC = Descending = absteigend
